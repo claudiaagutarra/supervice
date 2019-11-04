@@ -9,7 +9,7 @@
 .carousel
 {
     height: 500px;
-    background-image: url("../images/carouselbackground.jpg") ;
+    background-image: url("../images/carouselbackground-2.jpg") ;
     /* background-image: url(../images/food6.jpeg); */
     background-size: contain;
     margin-bottom:10px;
@@ -55,8 +55,12 @@ h2 {
     text-align: center;
 }
 
+
+
 #cuisine-div {
     column-count: 6;
+    overflow: auto;
+
 }
 
 .cuisineButton {
@@ -98,7 +102,7 @@ h2 {
 }
 
 .footer {
-    border-top: 7px solid #48a3b8;
+    border-top: 7px solid  #48a3b8;
     position: static;
     left: 0;
     bottom: 0;

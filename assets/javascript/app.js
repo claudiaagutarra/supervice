@@ -131,8 +131,7 @@ $(document).on("click", ".venuecityButton", function (e) {
 
 
         }, function (err) {
-            var errorMessage = "There are no cuisines for your selected venue. Please try again"
-            $(".error-div").html(errorMessage)
+            alert ("There are no results for this venue. Please try again!")
         });
 
         // 
