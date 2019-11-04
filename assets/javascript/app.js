@@ -131,7 +131,7 @@ $(document).on("click", ".venuecityButton", function (e) {
 
 
         }, function (err) {
-            alert ("There are no results for this venue. Please try again!")
+            alert("No results available for your selected venue. Please try again.")
         });
 
         // 
@@ -162,7 +162,6 @@ $(document).on("click", ".cuisineButton", function () {
             var linkmenu = $("<a>")
             linkmenu.attr("href", menuURL)
             linkmenu.attr("class", "menubutton");
-            console.log(linkmenu);
             var restaurantMenuButtonDisplay = linkmenu.text("Menu");
             var restaurantUserRating = $("<p>").html("RATING: " + userRating + " STARS");
             var restaurantDisplayArea = $("<div>");
